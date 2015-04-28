@@ -1,0 +1,71 @@
+.cpWpTransform {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cpWpSwipe {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes swipeDown {
+  0% {
+    -webkit-transform: translateY(0%);
+  }
+  50%{
+    -webkit-transform: translateY(-10%);
+  }
+  100%{
+    -webkit-transform: translateY(-8%);
+  }
+}
+
+@keyframes swipeDown {
+  0% {
+    transform: translateY(0%);
+  }
+  50%{
+    transform: translateY(-10%);
+  }
+  100%{
+    transform: translateY(-8%);
+  }
+}
+
+@-webkit-keyframes swipeUp {
+  0% {
+    -webkit-transform: translateY(80px);
+  }
+  50%{
+    -webkit-transform: translateY(100px);
+  }
+  100%{
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@keyframes swipeUp {
+  0% {
+    transform: translateY(80px);
+  }
+  50%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+.h5SwipeDown {
+  -webkit-animation-name: swipeDown;
+  animation-name: swipeDown;
+}
+
+.h5SwipeUp {
+  -webkit-animation-name: swipeUp;
+  animation-name: swipeUp;
+}

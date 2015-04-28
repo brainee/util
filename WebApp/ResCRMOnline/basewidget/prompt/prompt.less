@@ -1,0 +1,73 @@
+.cm-nav, .cm-tabs-nav .cm-tabs-title-list {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.cm-nav li, .cm-tabs-nav .cm-tabs-title-list li {
+  display: table-cell;
+}
+
+.cm-actions {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.cm-actions .cm-actions-btn {
+  display: table-cell;
+}
+.cm-actions .cm-actions-btn {
+  color: #099fde;
+  height: 43px;
+  line-height: 44px;
+  text-align: center;
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.cm-actions .cm-actions-btn:first-child {
+  border-left: none;
+}
+.cm-actions .cm-actions-btn:active {
+  background: #e6e6e6;
+}
+
+.cm-actions--full {
+  display: block;
+}
+.cm-actions--full .cm-actions-btn {
+  display: block;
+  width: 100%;
+  border-left: none;
+}
+
+.cm-modal {
+  /*display: none;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 300px;
+  padding-top: 44px;
+  z-index: 985;
+}
+
+.cm-modal--alert {
+  border: 1px solid #dbdbdb;
+  width: 280px;
+  padding-top: 0;
+}
+.cm-modal--alert .cm-modal-bd {
+  padding: 20px 10px;
+  text-align: center;
+}
+.cm-modal--alert .cm-modal-bd .cm-alert-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.cm-modal--alert .cm-modal-bd .cm-mutil-lines {
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+{
+    "requirejs": {
+        "main": {
+            "options": {
+                "baseUrl": "<%= config.srcDir %>",
+                "paths": {
+
+                },
+                "app": {
+                    "include": [                        
+                        "ResCRMOnline/basewidget/main"
+                    ],
+                    "out": "<%= config.destDir %>/main.js"
+                }
+            }
+
+        }
+    }
+}

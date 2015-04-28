@@ -1,0 +1,18 @@
+{
+  "name": "h5.components",
+  "version": "1.1.0",
+  "description": "",
+  "main": "main.js",
+  "author": [
+    "h5 team"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "0.6.0",
+    "grunt-contrib-less": "^0.11.4",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^0.4.0"
+  }
+}
